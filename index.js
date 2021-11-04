@@ -1,4 +1,4 @@
-function checker (number) {
+function check (number) {
   const number2 = number / 2;
   const number3 = number / 3;
   const number5 = number / 5;
@@ -15,6 +15,20 @@ function checker (number) {
 
 
   if (number2 === check2) {
+    var to = true;
+  }else if (number3 === check3) {
+    var thre = true;
+  }else if (number5 === check5) {
+    var foor = true;
+  }else if (number7 === check7) {
+    var fiv = true;
+  }else if (number11 === check11) {
+    var sixx = true;
+  }else if (number13 === check13){
+    var seveny = true;
+  }
+
+  if (to||thre||foor||fiv||sixx||seveny) {
     console.log(`${number} is not a prime`)
   }else{
     console.log(`${number} is a prime`)
