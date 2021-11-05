@@ -11,20 +11,19 @@ function check (number) {
   const check5 = Math.floor(number / 5)
   const check7 = Math.floor(number / 7)
   const check11 = Math.floor(number / 11)
-  const check13 = Math.floor(number / 13)
+  const check13 = Math.floor(number / 13) 
 
-
-  if (number2 === check2) {
+  if (number2 === check2 && check2 > 1) {
     var to = true;
-  }else if (number3 === check3) {
+  }else if (number3 === check3 && check3 > 1) {
     var thre = true;
-  }else if (number5 === check5) {
+  }else if (number5 === check5 && check5 > 1) {
     var foor = true;
-  }else if (number7 === check7) {
+  }else if (number7 === check7 && check7 > 1) {
     var fiv = true;
-  }else if (number11 === check11) {
+  }else if (number11 === check11 && check11 > 1) {
     var sixx = true;
-  }else if (number13 === check13){
+  }else if (number13 === check13 && check13 > 1){
     var seveny = true;
   }
 
