@@ -1,3 +1,6 @@
+console.log('type check() in the console with the number you want to check in the parentheses like this check(25) then press enter.')
+
+
 function check (number) {
   const number2 = number / 2;
   const number3 = number / 3;
