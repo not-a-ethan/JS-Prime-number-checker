@@ -2,13 +2,13 @@ console.log('type check() in the console with the number you want to check in th
 
 
 function check (number) {
-  for (const i = 0; number > i; i++) {
+  for (const i = 2; number > i; i++) {
     const numbercheck = number/i;
     const check = Math.floor(number/i)
-    const notOne = numbercheck-check
 
-    if (numbercheck === check && notOne > 1){
+    if (numbercheck === check){
       return `${number} is not a prime`
+      break
     }else{
       return `${number} is a prime`
     }
